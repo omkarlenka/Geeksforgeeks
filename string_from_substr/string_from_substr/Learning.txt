@@ -1,0 +1,8 @@
+//String formation from substring
+//http://www.practice.geeksforgeeks.org/problem-page.php?pid=290
+
+- Calulate LPS(longest prefix suffix) array that contains longest prefix that is also a suffix.
+- This can be done in O(n) using KMP algorithm (prefix array creation part only).
+- Once the LPS array is created, suppose "len" is the length of longest prefix which is also a suffix and "n" is the length of string.
+- if "n-len" devides n (i.e., n % (n-len) == 0) then return True else return False.
+- Reference : http://www.geeksforgeeks.org/find-given-string-can-represented-substring-iterating-substring-n-times/

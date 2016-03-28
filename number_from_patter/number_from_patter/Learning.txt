@@ -1,0 +1,4 @@
+//Number following a pattern
+//http://www.practice.geeksforgeeks.org/problem-page.php?pid=371
+- Key is to calculate consecutive 'D' and and increment variable 'max' accordingly.
+- COmplexity is O(n), where n is length is string.
